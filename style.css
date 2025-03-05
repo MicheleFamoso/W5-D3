@@ -1,0 +1,276 @@
+body {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  color: rgb(118, 39, 9);
+}
+main {
+  width: 97%;
+  margin: 0 auto;
+}
+h1 {
+  font-size: 3em;
+  font-weight: bold;
+  margin: 1em 0;
+  text-align: center;
+}
+nav img {
+  width: 50px;
+}
+nav {
+  display: flex;
+  background-color: rgb(254, 247, 226);
+  color: rgb(118, 39, 9);
+  padding: 0.9em 0;
+  border-radius: 30%;
+  margin: 1em;
+}
+nav ul {
+  display: flex;
+  flex-wrap: wrap;
+  flex-grow: 1;
+  justify-content: space-around;
+  justify-content: center;
+}
+nav li {
+  background-color: rgb(255, 223, 127);
+  padding: 1em;
+  border-radius: 30px;
+  list-style-type: none;
+  font-weight: bold;
+  margin: 1em 1em;
+}
+ul li:nth-child(1) {
+  order: 2;
+}
+ul li:nth-child(2) {
+  order: 2;
+}
+ul li:nth-child(3) {
+  order: 1;
+}
+ul li:nth-child(4) {
+  order: 3;
+}
+ul li:nth-child(5) {
+  order: 3;
+}
+#logo {
+  display: flex;
+  align-items: center;
+  padding: 1em 3em;
+  border-radius: 50px;
+  margin: 0em 1em;
+}
+#logo p {
+  font-size: 2em;
+  margin-left: 0.5em;
+}
+.card img {
+  width: 100%;
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
+}
+.card button {
+  padding: 0.5em 3em;
+  background-color: rgb(255, 223, 127);
+  border: none;
+  border-radius: 25px;
+  margin-bottom: 1em;
+}
+.card {
+  background-color: rgb(254, 247, 226);
+  margin-bottom: 1em;
+  width: 350px;
+  border-radius: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.descr {
+  display: flex;
+  align-items: center;
+}
+.descr h4 {
+  margin-left: 1.5em;
+}
+.honey {
+  margin: 1.5em 0;
+  margin-right: 1.5em;
+  text-align: center;
+}
+.honey h3 {
+  font-size: 1.2em;
+}
+.honey p {
+  font-size: 0.8em;
+}
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+article {
+  margin: 0 auto;
+  background-color: rgb(254, 247, 226);
+  border-radius: 25px;
+  padding: 2em 0;
+}
+article div {
+  width: 90%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+}
+article div img {
+  width: 100%;
+}
+article div h2 {
+  font-size: 1.5em;
+  font-weight: bold;
+  margin-bottom: 1em;
+}
+article div p {
+  margin-bottom: 2em;
+}
+h2 {
+  margin: 1em 0;
+
+  font-weight: bold;
+  font-size: 2em;
+  text-align: center;
+}
+
+@media screen and (min-width: 567px) {
+  main {
+    width: 97%;
+    margin: 0 auto;
+  }
+  h1 {
+    font-size: 3em;
+    font-weight: bold;
+    margin: 1em 0;
+  }
+  nav img {
+    width: 50px;
+  }
+  nav {
+    display: flex;
+    background-color: rgb(254, 247, 226);
+    color: rgb(118, 39, 9);
+    padding: 0.9em 0;
+    position: sticky;
+    top: 0;
+    border-radius: 0%;
+  }
+  nav ul {
+    display: flex;
+    flex-grow: 1;
+    justify-content: space-around;
+    align-items: center;
+  }
+  nav li {
+    background-color: rgb(255, 223, 127);
+    padding: 1em;
+    border-radius: 30px;
+    list-style-type: none;
+    font-weight: bold;
+  }
+  ul li:nth-child(1) {
+    order: 1;
+  }
+  ul li:nth-child(2) {
+    order: 2;
+  }
+  ul li:nth-child(3) {
+    order: 3;
+  }
+  ul li:nth-child(4) {
+    order: 4;
+  }
+  ul li:nth-child(5) {
+    order: 5;
+  }
+  #logo {
+    display: flex;
+    align-items: center;
+    padding: 2em 1em;
+    border-radius: 50px;
+  }
+  #logo p {
+    font-size: 2em;
+    margin-left: 0.5em;
+  }
+  .card img {
+    width: 100%;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+  }
+  .card button {
+    padding: 0.5em 3em;
+    background-color: rgb(255, 223, 127);
+    border: none;
+    border-radius: 25px;
+    margin-bottom: 1em;
+  }
+  .card {
+    background-color: rgb(254, 247, 226);
+    margin-bottom: 1em;
+    width: 350px;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .descr {
+    display: flex;
+    align-items: center;
+  }
+  .descr h4 {
+    margin-left: 1.5em;
+  }
+  .honey {
+    margin: 1.5em 0;
+    margin-right: 1.5em;
+    text-align: center;
+  }
+  .honey h3 {
+    font-size: 1.2em;
+  }
+  .honey p {
+    font-size: 0.8em;
+  }
+  .cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+  }
+  article {
+    margin: 0 auto;
+    background-color: rgb(254, 247, 226);
+    border-radius: 25px;
+    padding: 2em 0;
+  }
+  article div {
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+  }
+  article div img {
+    width: 100%;
+  }
+  article div h2 {
+    font-size: 1.5em;
+    font-weight: bold;
+    margin-bottom: 1em;
+  }
+  article div p {
+    margin-bottom: 2em;
+  }
+  h2 {
+    margin: 1em 0;
+
+    font-weight: bold;
+    font-size: 2em;
+  }
+}
